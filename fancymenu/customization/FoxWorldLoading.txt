@@ -1,0 +1,46 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.WorldLoadProgressScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = foxmodpack_intro
+  action = animatebackground
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  x = -132
+  action = addtext
+  actionid = 1bde8c2f-07b8-449d-81b2-2c3f6992ac631627803928744
+  y = 34
+  scale = 4.0
+  alignment = left
+  value = Now Loading...
+}
+
+customization {
+  orientation = bottom-centered
+  slim = false
+  scale = 100
+  headrotationy = 25.0
+  headrotationx = 80.0
+  autorotation = false
+  showname = true
+  crouching = false
+  x = 149
+  actionid = ed758923-f82e-463c-9be0-f6372faec37e1627803995379
+  action = addentity
+  y = -19
+  playername = %playername%
+  bodyrotationx = 78.0
+  bodyrotationy = 0.0
+  parrot = false
+}
+

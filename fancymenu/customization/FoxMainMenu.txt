@@ -1,0 +1,247 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = foxmodpack_intro
+  action = animatebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = -29
+}
+
+customization {
+  identifier = %id=400322%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  seconds = 0.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 19
+}
+
+customization {
+  identifier = %id=400382%
+  seconds = 0.7
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 43
+}
+
+customization {
+  identifier = %id=502382%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  seconds = 0.8
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -29
+}
+
+customization {
+  identifier = %id=400298%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  seconds = 0.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 19
+}
+
+customization {
+  identifier = %id=400346%
+  seconds = 0.7
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=9500%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 0.6
+  buttonaction = joinserver
+  label = Join Golden Sands
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 2.0
+  x = -100
+  width = 200
+  actionid = 75c601dc-3c84-4451-964e-11a036ef5c071627923323921
+  action = addbutton
+  y = -5
+  delayappearance = true
+  value = play.goldensandsmc.com
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  delayappearanceseconds = 1.5
+  vr:showif:modloaded = true
+  slim = false
+  scale = 30
+  headrotationy = 0.0
+  headrotationx = 180.0
+  autorotation = false
+  showname = false
+  crouching = false
+  x = -1
+  actionid = 77d7b33d-cf2a-4ba3-8151-507f920f90c31634695285030
+  action = addentity
+  y = -43
+  delayappearance = true
+  playername = FoxMcloud5655
+  vr:value:modloaded = optifine
+  bodyrotationx = 180.0
+  bodyrotationy = 0.0
+  parrot = false
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = false
+  delayappearanceseconds = 1.5
+  vr:showif:modloaded = true
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 2.0
+  x = -114
+  action = addtext
+  actionid = 0c2326de-89b5-4c0f-911a-21b493346a7f1634695802139
+  y = -38
+  delayappearance = true
+  vr:value:modloaded = optifine
+  alignment = left
+  value = Fox does not approve of the usage of Optifine.
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = false
+  delayappearanceseconds = 1.6
+  vr:showif:modloaded = true
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 2.0
+  x = -180
+  action = addtext
+  actionid = 2f505292-505a-459d-9e88-46dd0f6e4e601634696266860
+  y = -28
+  delayappearance = true
+  vr:value:modloaded = optifine
+  alignment = left
+  value = By using Optifine, you will experience shader issues and potential crashes.
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = false
+  delayappearanceseconds = 1.7
+  vr:showif:modloaded = true
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 2.0
+  x = -59
+  action = addtext
+  actionid = 48166ad8-a820-49e0-a170-eaf38b690d6d1634696314346
+  y = -14
+  delayappearance = true
+  vr:value:modloaded = optifine
+  alignment = left
+  value = You have been warned.
+  delayappearanceeverytime = false
+}
+

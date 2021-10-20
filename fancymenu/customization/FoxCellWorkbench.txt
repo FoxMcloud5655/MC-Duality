@@ -1,0 +1,40 @@
+type = menu
+
+customization-meta {
+  identifier = appeng.client.gui.implementations.CellWorkbenchScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  identifier = %id=570530%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=558530%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=546530%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=534530%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=570390%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=558390%
+  action = hidebutton
+}
+
