@@ -1,0 +1,27 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.AlertScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  x = -31
+  action = addtext
+  actionid = 67279001-7af6-4811-97a6-f052991990731634698058734
+  y = 38
+  scale = 1.0
+  alignment = left
+  value = Nani?!  OwO
+}
+

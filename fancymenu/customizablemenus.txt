@@ -3,3 +3,9 @@ type = customizablemenus
 net.minecraft.client.gui.screen.MainMenuScreen {
 }
 
+net.minecraft.client.gui.screen.AlertScreen {
+}
+
+net.minecraft.client.gui.screen.IngameMenuScreen {
+}
+
