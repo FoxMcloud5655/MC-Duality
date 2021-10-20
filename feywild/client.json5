@@ -3,7 +3,7 @@
   "flower_particles": true,
   
   // Whether Feywild should replace the main menu and music
-  "replace_menu": true,
+  "replace_menu": false,
   
   // Whether tree particles should spawn.
   "tree_particles": true

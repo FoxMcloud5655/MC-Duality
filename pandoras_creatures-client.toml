@@ -2,11 +2,11 @@
 #Settings for Pandoras Creatures
 [chat]
 	#Turn the notification the player gets when joining and a new update has been found on and off.
-	shouldShowUpdateMessage = true
+	shouldShowUpdateMessage = false
 	#Turn the notification the player gets when joining and a the mod wasnt able to check for a new version on and off.
-	shouldShowUpdateCheckFailedMessage = true
+	shouldShowUpdateCheckFailedMessage = false
 	#Turn the notification the player gets when joining and the mod detected an invalid .jar on and off.
-	shouldShowInvalidJarMessage = true
+	shouldShowInvalidJarMessage = false
 
 [creativeTabButtonsGeneral]
 	#Choose if the buttons that get rendered in the Pandoras Creatures Creative Tab should be disabled or enabled.

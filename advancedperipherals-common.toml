@@ -14,7 +14,7 @@
 [Restrictions]
 	#The max range of the player detector functions. If anyone use a higher range, the detector will use this max range
 	#Range: 0 ~ 100000000
-	playerDetMaxRange = 100000000
+	playerDetMaxRange = 100
 	#Defines the maximum energy flow of the energy detector.
 	#Range: > 1
 	energyDetectorMaxFlow = 2147483647

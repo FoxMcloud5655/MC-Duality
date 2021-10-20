@@ -1,5 +1,5 @@
 enabled = true
-nVidia = false
+nVidia = true
 
 [leaves]
 	enabled = true
@@ -36,11 +36,11 @@ nVidia = false
 	saturationThreshold = 0.1
 
 [connectedGrass]
-	enabled = true
+	enabled = false
 	snowEnabled = false
 
 [roundLogs]
-	enabled = true
+	enabled = false
 	plantsOnly = true
 	#Range: 0.0 ~ 0.5
 	radiusSmall = 0.25

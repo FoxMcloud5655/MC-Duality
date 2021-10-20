@@ -25,7 +25,7 @@
 		hanging_sign = true
 		bomb = true
 		#WIP
-		amethyst_arrow = false
+		amethyst_arrow = true
 		cage = true
 		stone_tile = true
 		blaze_rod = true

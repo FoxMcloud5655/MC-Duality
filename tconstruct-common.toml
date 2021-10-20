@@ -47,13 +47,13 @@
 #Everything to do with world generation
 [worldgen]
 	#Generate Copper
-	generateCopper = true
+	generateCopper = false
 	#Approx Ores per Chunk
 	veinCountCopper = 20
 	#Generate Cobalt
 	generateCobalt = true
 	#Approx Ores per Chunk
-	veinCountCobalt = 8
+	veinCountCobalt = 16
 
 	#Options related to slime islands
 	[worldgen.slime_islands]

@@ -13,7 +13,7 @@ isDebugModeEnabled = false
 	# Toggle Seahorse Spawning
 	seahorseSpawning = true
 	# Toggle Acidic Archvine Spawning
-	acidicArchvineSpawning = true
+	acidicArchvineSpawning = false
 	# Toggle Bufflon Spawning
 	bufflonSpawning = true
 

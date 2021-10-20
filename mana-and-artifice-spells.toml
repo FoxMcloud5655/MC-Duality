@@ -168,7 +168,7 @@
 		minimum = 1.0
 		#Maximum Value
 		#Range: 0.0 ~ 9999.0
-		maximum = 10.0
+		maximum = 8.0
 		#Default Value
 		#Range: 0.0 ~ 9999.0
 		default = 3.0
@@ -185,7 +185,7 @@
 		minimum = 1.0
 		#Maximum Value
 		#Range: 0.0 ~ 9999.0
-		maximum = 9.0
+		maximum = 5.0
 		#Default Value
 		#Range: 0.0 ~ 9999.0
 		default = 1.0
@@ -194,7 +194,7 @@
 		step = 1.0
 		#Complexity Value (how much does changing by one tick change the complexity)
 		#Range: 0.0 ~ 9999.0
-		step_complexity = 3.0
+		step_complexity = 8.0
 
 	["mana-and-artifice:shapes/wave".HEIGHT]
 		#Minimum Value
@@ -202,7 +202,7 @@
 		minimum = 1.0
 		#Maximum Value
 		#Range: 0.0 ~ 9999.0
-		maximum = 9.0
+		maximum = 5.0
 		#Default Value
 		#Range: 0.0 ~ 9999.0
 		default = 1.0
@@ -211,24 +211,24 @@
 		step = 1.0
 		#Complexity Value (how much does changing by one tick change the complexity)
 		#Range: 0.0 ~ 9999.0
-		step_complexity = 5.0
+		step_complexity = 10.0
 
 	["mana-and-artifice:shapes/wave".SPEED]
 		#Minimum Value
 		#Range: 0.0 ~ 9999.0
-		minimum = 0.10000000149011612
+		minimum = 0.1
 		#Maximum Value
 		#Range: 0.0 ~ 9999.0
-		maximum = 1.0
+		maximum = 0.5
 		#Default Value
 		#Range: 0.0 ~ 9999.0
-		default = 0.30000001192092896
+		default = 0.3
 		#Step Value (how much does one click in the inscription table change the value)
 		#Range: 0.0 ~ 9999.0
-		step = 0.10000000149011612
+		step = 0.1
 		#Complexity Value (how much does changing by one tick change the complexity)
 		#Range: 0.0 ~ 9999.0
-		step_complexity = 2.0
+		step_complexity = 5.0
 
 ["mana-and-artifice:shapes/emanation"]
 

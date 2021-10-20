@@ -27,7 +27,7 @@
 	#True if the ores in laserDrillOres should be a blacklist, false for a whitelist
 	laserDrillOres_blacklist = false
 	#If true, the orbital laser will actually mine blocks on the planet below
-	laserDrillPlanet = false
+	laserDrillPlanet = true
 	#Laser drill will not mine these dimension
 	spaceLaserDimIdBlackList = []
 
@@ -35,7 +35,7 @@
 	#Enables terraforming items and blocks
 	EnableTerraforming = true
 	#EXPERIMENTAL: If set to true allows contruction and usage of the terraformer.  This is known to cause strange world generation after successful terraform
-	allowTerraforming = false
+	allowTerraforming = true
 	#How many blocks have the biome changed per tick.  Large numbers can slow the server down
 	biomeUpdateSpeed = 1
 	#Multplier for atmosphere change speed
@@ -83,7 +83,7 @@
 	#The largest size a space station can be.  Should also be a power of 2 (512)
 	SpaceStationBuildRadius = 1024
 	#If true, players will be able to completely disable gravity on spacestation.  It's possible to get stuck and require a teleport
-	allowZeroGSpacestations = false
+	allowZeroGSpacestations = true
 	#How many units of fuel should each Dilithium Crystal give to warp ships
 	pointsPerDilithium = 500
 
@@ -113,11 +113,11 @@
 	#setting this to true will force AR to read from the XML file in the config/advRocketry instead of the local data, intended for use pack developers to ensure updates are pushed through
 	resetPlanetsFromXML = false
 	#If true, players will respawn near beds on planets IF the spawn location is in a breathable atmosphere
-	allowPlanetRespawn = false
+	allowPlanetRespawn = true
 	#If true, players will respawn near beds on planets REGARDLESS of the spawn location being in a non-breathable atmosphere. Requires 'allowPlanetRespawn' being true.
 	forcePlanetRespawn = false
 	#If true, planets must be discovered in the warp controller before being visible
-	planetsMustBeDiscovered = false
+	planetsMustBeDiscovered = true
 	#Prevents any vanilla biomes from spawning on planets
 	blackListVanillaBiomes = false
 	#Chance of planet discovery in the warp ship monitor is not all planets are initially discovered
@@ -142,7 +142,7 @@
 	[Client.Rockets]
 		#How high the rocket has to go before it reaches orbit
 		#Range: > 255
-		OrbitHeight = 1000
+		OrbitHeight = 500
 		#List of fluid names for fluids that can be used as rocket monopropellants
 		rocketFuels = ["advancedrocketry:rocket_fuel;2"]
 		#List of fluid names for fluids that can be used as rocket bipropellant fuels
@@ -156,7 +156,7 @@
 		#If true, planets with higher gravity require more fuel and lower gravity would require less
 		gravityAffectsFuels = true
 		#If true, rockets will be able to actually fly around space
-		experimentalSpaceFlight = false
+		experimentalSpaceFlight = true
 		#Set to false if rockets should not require fuel to fly
 		rocketsRequireFuel = true
 		#Set to false if rockets should not be able to be fueled by and and will require a fueling station
@@ -171,7 +171,7 @@
 		rocketsDamageBlocks = false
 		#How high the rocket has to go before it reaches station clearance
 		#Range: > 255
-		stationClearanceHeight = 1000
+		stationClearanceHeight = 500
 		#TBI multiplier for asteroid flights
 		asteroidTBIBurnMult = 1.0
 		#How long transbody injection is before the rocket can exit
@@ -205,17 +205,17 @@
 		#Some worlds have a chance of spawning single biomes contained in this list.
 		SingleBiomes = ["minecraft:desert_hills", "minecraft:mushroom_fields", "minecraft:tall_birch_hills", "minecraft:ice_spikes"]
 		EnableOreGen = true
-		GenerateCopper = true
+		GenerateCopper = false
 		CopperPerClump = 6
 		CopperPerChunk = 10
-		GenerateTin = true
+		GenerateTin = false
 		TinPerClump = 6
 		TinPerChunk = 10
 		generateDilithium = true
 		DilithiumPerClump = 16
 		DilithiumPerChunk = 1
 		DilithiumPerChunkLuna = 10
-		generateAluminum = true
+		generateAluminum = false
 		AluminumPerClump = 16
 		AluminumPerChunk = 1
 		generateIridium = false
