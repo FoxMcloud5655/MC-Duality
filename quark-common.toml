@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Use Anti Overlap" = true
 	#Quark replaces the Piston logic to allow for its piston features to work. If you're having troubles, try turning this off.
@@ -129,7 +129,7 @@
 	"Variant Chests" = true
 	"Variant Ladders" = true
 	"Vertical Planks" = true
-	"Vertical Slabs" = true
+	"Vertical Slabs" = false
 	"Wooden Posts" = true
 
 	[building.celebratory_lamps]
@@ -258,7 +258,7 @@
 	Camera = true
 	"Color Runes" = true
 	"Pathfinder Maps" = true
-	Pickarang = true
+	Pickarang = false
 	"Seed Pouch" = true
 	"Slime In A Bucket" = true
 	Trowel = true
@@ -369,7 +369,7 @@
 	"Enhanced Ladders" = true
 	"Glass Shard" = true
 	"Hoe Harvesting" = true
-	"Improved Sleeping" = true
+	"Improved Sleeping" = false
 	"Infinity Bucket" = true
 	"Lava Bucket As Trash" = true
 	"Lock Rotation" = true
@@ -380,7 +380,7 @@
 	"Reacharound Placing" = true
 	"Replace Scaffolding" = true
 	"Sign Editing" = true
-	"Simple Harvest" = true
+	"Simple Harvest" = false
 	"Snow Golem Player Heads" = true
 	"Springy Slime" = true
 	"Utility Recipes" = true
@@ -402,8 +402,8 @@
 	[tweaks.compasses_work_everywhere]
 		"Enable Compass Nerf" = true
 		"Enable Clock Nerf" = true
-		"Enable Nether" = true
-		"Enable End" = true
+		"Enable Nether" = false
+		"Enable End" = false
 
 	[tweaks.emotes]
 		#The enabled default emotes. Remove from this list to disable them. You can also re-order them, if you feel like it.
@@ -499,19 +499,19 @@
 
 [world]
 	"Big Dungeon" = true
-	"Big Stone Clusters" = true
-	Biotite = true
+	"Big Stone Clusters" = false
+	Biotite = false
 	"Blossom Trees" = true
 	"Cave Roots" = true
 	"Chorus Vegetation" = true
 	Crevices = true
 	Deepslate = true
 	"Fairy Rings" = true
-	"Mega Caves" = true
+	"Mega Caves" = false
 	"Monster Box" = true
 	"Nether Obsidian Spikes" = true
 	"New Stone Types" = true
-	"Realistic World Gen" = true
+	"Realistic World Gen" = false
 	Speleothems = true
 	"Spiral Spires" = true
 	"Underground Clay" = true
@@ -1944,12 +1944,12 @@
 		"Shiny Animal Chance" = 2048
 
 [oddities]
-	Backpack = true
+	Backpack = false
 	Crate = true
 	Magnets = true
 	"Matrix Enchanting" = true
 	Pipes = true
-	"Totem Of Holding" = true
+	"Totem Of Holding" = false
 
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them
@@ -1989,7 +1989,7 @@
 		#How much to multiply the frequency of pieces where at least one of the same type has been generated
 		"Dupe Multiplier" = 1.4
 		#How much to multiply the frequency of pieces where incompatible pieces have been generated
-		"Incompatible Multiplier" = 0.0
+		"Incompatible Multiplier" = 0.25
 		#Set to false to disable the ability to create Enchanted Books
 		"Allow Books" = true
 		#Set this to true to allow treasure enchantments to be rolled as pieces
@@ -2034,11 +2034,11 @@
 [experimental]
 	"Adjustable Chat" = false
 	"Custom Underground Biome" = false
-	"Game Nerfs" = false
+	"Game Nerfs" = true
 	"Narrator Readout" = false
-	"Overlay Shader" = false
-	Pallet = false
-	Shiba = false
+	"Overlay Shader" = true
+	Pallet = true
+	Shiba = true
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
@@ -2054,21 +2054,21 @@
 	[experimental.game_nerfs]
 		#Makes Mending act like the Unmending mod
 		#https://www.curseforge.com/minecraft/mc-mods/unmending
-		"Nerf Mending" = true
+		"Nerf Mending" = false
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
 		"Nerf Villager Discount" = true
 		#Makes Iron Golems not drop Iron Ingots
-		"Disable Iron Farms" = true
+		"Disable Iron Farms" = false
 		#Makes Boats not glide on ice
-		"Disable Ice Roads" = true
+		"Disable Ice Roads" = false
 		#Makes Sheep not drop Wool when killed
-		"Disable Wool Drops" = true
+		"Disable Wool Drops" = false
 
 	[experimental.overlay_shader]
 		#Sets the name of the shader to load on a regular basis. This can load any shader the Camera module can (and requires the Camera module enabled to apply said logic).
 		#Some useful shaders include 'desaturate', 'oversaturate', 'bumpy'
 		#Colorblind simulation shaders are available in the form of 'deuteranopia', 'protanopia', 'tritanopia', and 'achromatopsia'
-		Shader = "none"
+		Shader = "oversaturate"
 
 	[experimental.shiba]
 

@@ -84,7 +84,7 @@
 				[client.client.performance.models.builder]
 					#mod.chiselsandbits.config.client.performance.models.builder.threadcount.comment
 					#Range: 14 ~ 16
-					threadcount = 1
+					threadcount = 14
 
 			[client.client.performance.faces]
 
