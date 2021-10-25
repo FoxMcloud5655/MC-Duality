@@ -370,7 +370,7 @@
 		#Do not capture any entity from the following mods
 		captureMod = ["botania", "dungeonsmod"]
 		#Do not capture the following entities
-		captureEntity = ["minecraft:wither, "minecraft:ender_dragon"]
+		captureEntity = ["minecraft:wither", "minecraft:ender_dragon"]
 		#Do not learn items from the following mods
 		learnMod = []
 		#Do not learn the following items
