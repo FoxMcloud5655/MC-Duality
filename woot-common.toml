@@ -37,13 +37,13 @@
 		t3MaxHealth = 60
 		#Max health for a tier 4 mob
 		#Range: > 5
-		t4MaxHealth = 2147483647
+		t4MaxHealth = 80
 		#Max health for a tier 5 mob
 		#Range: > 5
-		t5MaxHealth = 2147483647
+		t5MaxHealth = 100
 		#Exotic drop chance
 		#Range: 0.0 ~ 100.0
-		exotic = 15.0
+		exotic = 10.0
 
 	[factory.base]
 		#Number of mobs to spawn
@@ -57,7 +57,7 @@
 		mbPerHealth = 10
 		#Number of kills to program the shard
 		#Range: 1 ~ 65535
-		shardKills = 5
+		shardKills = 20
 
 	[factory.basicCell]
 		#Tank capacity (mb)
@@ -155,19 +155,19 @@
 			l3Rolls = 3
 			#Chance to drop essence from a Tier 1 factory
 			#Range: 0.0 ~ 100.0
-			t1DropChance = 5.0
+			t1DropChance = 2.5
 			#Chance to drop essence from a Tier 2 factory
 			#Range: 0.0 ~ 100.0
-			t2DropChance = 10.0
+			t2DropChance = 5.0
 			#Chance to drop essence from a Tier 3 factory
 			#Range: 0.0 ~ 100.0
-			t3DropChance = 20.0
+			t3DropChance = 10.0
 			#Chance to drop essence from a Tier 4 factory
 			#Range: 0.0 ~ 100.0
-			t4DropChance = 30.0
+			t4DropChance = 15.0
 			#Chance to drop essence from a Tier 5 factory
 			#Range: 0.0 ~ 100.0
-			t5DropChance = 40.0
+			t5DropChance = 20.0
 			#Weights of the Celadon, Cerulean, Byzantium shard from a Tier 1 factory
 			t1DropWeights = [80, 20, 1]
 			#Weights of the Celadon, Cerulean, Byzantium shard from a Tier 2 factory
@@ -368,15 +368,15 @@
 
 	[policy.blacklist]
 		#Do not capture any entity from the following mods
-		captureMod = ["botania"]
+		captureMod = ["botania", "dungeonsmod"]
 		#Do not capture the following entities
-		captureEntity = []
+		captureEntity = ["minecraft:wither, "minecraft:ender_dragon"]
 		#Do not learn items from the following mods
 		learnMod = []
 		#Do not learn the following items
 		learnItem = []
 		#Do not generate items from the following mods
-		generateMod = []
+		generateMod = ["artifacts"]
 		#Do not generate the following items
 		generateItem = []
 		#Do not allow shard creation with entities from the following mods

@@ -218,7 +218,7 @@
 		"Change Names" = true
 
 	[building.variant_chests]
-		"Replace Worldgen Chests" = true
+		"Replace Worldgen Chests" = false
 		"Enable Reverting Wooden Chests" = true
 		#Chests to put in each structure. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
 		"Structure Chests" = ["minecraft:village_plains=quark:oak_chest", "minecraft:igloo=quark:spruce_chest", "minecraft:village_snowy=quark:spruce_chest", "minecraft:village_taiga=quark:spruce_chest", "minecraft:desert_pyramid=quark:birch_chest", "minecraft:jungle_pyramid=quark:jungle_chest", "minecraft:village_desert=quark:jungle_chest", "minecraft:village_savanna=quark:acacia_chest", "minecraft:mansion=quark:dark_oak_chest", "minecraft:pillager_outpost=quark:dark_oak_chest", "minecraft:ruined_portal=quark:crimson_chest", "minecraft:bastion_remnant=quark:crimson_chest", "minecraft:fortress=quark:nether_brick_chest", "minecraft:endcity=quark:purpur_chest"]
@@ -2036,7 +2036,7 @@
 	"Custom Underground Biome" = false
 	"Game Nerfs" = true
 	"Narrator Readout" = false
-	"Overlay Shader" = true
+	"Overlay Shader" = false
 	Pallet = true
 	Shiba = true
 
@@ -2068,7 +2068,7 @@
 		#Sets the name of the shader to load on a regular basis. This can load any shader the Camera module can (and requires the Camera module enabled to apply said logic).
 		#Some useful shaders include 'desaturate', 'oversaturate', 'bumpy'
 		#Colorblind simulation shaders are available in the form of 'deuteranopia', 'protanopia', 'tritanopia', and 'achromatopsia'
-		Shader = "oversaturate"
+		Shader = "bumpy"
 
 	[experimental.shiba]
 
