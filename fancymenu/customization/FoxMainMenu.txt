@@ -159,7 +159,7 @@ customization {
   action = addbutton
   y = -5
   delayappearance = true
-  value = play.goldensandsmc.com
+  value = play.goldensandsmc.com:25566
   delayappearanceeverytime = false
   height = 20
 }
