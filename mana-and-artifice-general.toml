@@ -81,13 +81,13 @@ undeadSouls = 50
 	genericWellsprings = false
 	#Size of vinteum veins
 	#Range: 1 ~ 20
-	vinteumVeinSize = 9
+	vinteumVeinSize = 1
 	#Count of vinteum veins
 	#Range: 1 ~ 100
-	vinteumVeinCount = 20
+	vinteumVeinCount = 1
 	#Max Y-value of vinteum veins
 	#Range: 10 ~ 255
-	vinteumVeinYValue = 63
+	vinteumVeinYValue = 10
 
 #Mana and Artifice // Artifact Options
 [ma_artifact_options]
