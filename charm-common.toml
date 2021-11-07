@@ -67,7 +67,7 @@
 #Husks spawn anywhere within their biome and have a chance to drop sand.
 "HuskImprovements enabled" = true
 #Button to automatically tidy inventories.
-"InventoryTidying enabled" = true
+"InventoryTidying enabled" = false
 #A functional block that speeds up cooking of clay, bricks and terracotta.
 "Kilns enabled" = true
 #Lumberjacks are villagers that trade wooden items. Their job site is the woodcutter.
@@ -106,7 +106,7 @@
 #Decorative block made by smelting obsidian.
 "RefinedObsidian enabled" = true
 #When any action would cause a villager to become a nitwit, it becomes an unemployed villager instead.
-"RemoveNitwits enabled" = true
+"RemoveNitwits enabled" = false
 #Removes the potion enchantment glint so you can see what the potion color is.
 "RemovePotionGlint enabled" = true
 #Shows the contents of a Shulker Box on hover-over.

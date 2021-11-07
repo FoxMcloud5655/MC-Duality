@@ -182,7 +182,7 @@
 [aureal]
 	#Chance that an entity spawns as Aureal Entity [default: 0.25]
 	#Range: 0.0 ~ 1.0
-	aureal_entity_chance = 0.25
+	aureal_entity_chance = 0.2
 
 	[aureal.corruption]
 		#Do you want to completely disable corruption consequences? [default: false]

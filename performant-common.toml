@@ -25,7 +25,7 @@ displayTooLargePackets = true
 		TELoadBalancing = true
 		#Mean tick time at which load balancing takes effect, 1000 / mean tick time = TPS. default: 55
 		#Range: 1 ~ 200
-		meanTickTH = 55
+		meanTickTH = 67
 		#Enables debug log output for lagging tile entities, default = false
 		TEDebugOutput = false
 		#Requires TELoadBalancing = true. Enables dealing with lag caused by tile entities during chunk unload. This is normally not needed. default = false
@@ -48,7 +48,7 @@ displayTooLargePackets = true
 	adaptiveSpeed = true
 	#Entity spawn interval setting, determines how frequently entities are spawned overall. 1 = Vanilla default, default = 10
 	#Range: 1 ~ 1000
-	spawnInterval = 10
+	spawnInterval = 2
 	#Fix leash lag from entities on a leash, default = true
 	fixLeash = true
 	#Enables improved entity collision and movement calculations for any non item entity, default = true
@@ -119,7 +119,7 @@ displayTooLargePackets = true
 	logintimeout = 2400
 	#Set the watchdog timeout for the integrated server in miliseconds, -1 Disables it. 1 second = 1000 miliseconds, default = 180000
 	#Range: -1 ~ 500000
-	singlePlayerWatchDogTimeout = 180000
+	singlePlayerWatchDogTimeout = -1
 	#Set the amount of items at which too many stacked items report their position. Default = 100 items
 	#Range: 2 ~ 1000
 	maxItems = 100
@@ -128,7 +128,7 @@ displayTooLargePackets = true
 	disconnectTimeout = 60
 	#Set the maximum allowed amount of same sounds playing at the same time. Lowers e.g. lag of flowing water and other cases where a sound is repeated a lot at once. Default = 10
 	#Range: 1 ~ 4000
-	maxSameSounds = 10
+	maxSameSounds = 20
 	#Disables the config reload during the game, can cause performance issues on some linux systems, default = false
 	disableConfigReload = false
 	#Enable printing of world/chunk saves for debugging purposes, those normally happen every 5minutes. default = false

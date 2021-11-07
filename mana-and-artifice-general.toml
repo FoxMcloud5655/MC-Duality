@@ -3,16 +3,16 @@
 playerSouls = 2500
 #How many souls are villagers worth when killed?
 #Range: 1 ~ 20000
-villagerSouls = 250
+villagerSouls = 500
 #How many souls are enemy faction members worth when killed?
 #Range: 1 ~ 20000
-factionSouls = 250
+factionSouls = 500
 #How many souls are mobs worth when killed?
 #Range: 1 ~ 20000
-mobSouls = 150
+mobSouls = 250
 #How many souls are animals worth when killed?
 #Range: 1 ~ 20000
-animalSouls = 100
+animalSouls = 150
 #How many souls are undead worth when killed?
 #Range: 1 ~ 20000
 undeadSouls = 50
@@ -43,7 +43,7 @@ undeadSouls = 50
 	fortificationDamageAmount = 4.0
 	#How many kills does it take to fill up a crystal phylactery
 	#Range: 1 ~ 1000
-	phylacteryKills = 100
+	phylacteryKills = 20
 	#Can bosses be summoned?
 	bossSummons = false
 	#Can bosses be captured in phylacteries?
@@ -74,9 +74,9 @@ undeadSouls = 50
 [ma_worldgen_options]
 	#How far apart wellspring nodes must be as a minimum.  They can be farther than this depending on world seed and generation.
 	#Range: 100 ~ 15000
-	wellspringDistance = 500
+	wellspringDistance = 600
 	#If true, total wellspring power will be calculated per faction rather than per player.
-	wellspringFactionClaims = false
+	wellspringFactionClaims = true
 	#If true, wellsprings will generate with no affinity and the type of lens used will set the affinity of the node.
 	genericWellsprings = false
 	#Size of vinteum veins
@@ -101,8 +101,8 @@ undeadSouls = 50
 	councilArmorReflectRecharge = 100
 	#The percent chance the fey armor will reflect projectiles.
 	#Range: 0.0 ~ 1.0
-	feyArmorReflectChance = 0.20000000298023224
+	feyArmorReflectChance = 0.2
 	#The percent chance the fey armor will randomly teleport melee attackers.
 	#Range: 0.0 ~ 1.0
-	feyArmorTeleportChance = 0.20000000298023224
+	feyArmorTeleportChance = 0.2
 

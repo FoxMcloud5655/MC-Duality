@@ -9,7 +9,7 @@
 	holidays = true
 	#Adjust Mekanism sounds' base volume. < 1 is softer, higher is louder.
 	#Range: 0.0 ~ 3.4028234663852886E38
-	baseSoundVolume = 1.0
+	baseSoundVolume = 1.25
 	#Show particles when machines active.
 	machineEffects = true
 	#Should active machines produce block light.
@@ -31,9 +31,9 @@
 	#Enable item information HUD during gameplay
 	enableHUD = true
 	#How far (in blocks) from the player radiation particles can spawn.
-	radiationParticleRadius = 30
+	radiationParticleRadius = 60
 	#How many particles spawn when rendering radiation effects (scaled by radiation level).
-	radiationParticleCount = 100
+	radiationParticleCount = 200
 	#Color of energy in item durability display.
 	energyColor = 3997338
 	#Range at which Tile Entity Renderer's added by Mekanism can render at, for example the contents of multiblocks. Vanilla defaults the rendering range for TERs to 64 for most blocks, but uses a range of 256 for beacons and end gateways.
@@ -44,7 +44,7 @@
 	[client.gui]
 		#Opacity of HUD used by MekaSuit.
 		#Range: 0.0 ~ 1.0
-		hudOpacity = 0.4000000059604645
+		hudOpacity = 0.4
 		#Color of HUD used by MekaSuit.
 		hudColor = 4257264
 		#Color of warning HUD elements used by MekaSuit.

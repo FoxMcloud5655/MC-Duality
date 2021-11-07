@@ -3,7 +3,7 @@
 [general]
 	#Should players leave a ghost when they die? 0 to disable, 1 to always, 100/positiveValues chance
 	#Range: > 0
-	"Ghost Players" = 20
+	"Ghost Players" = 4
 
 [bosses]
 
@@ -73,7 +73,7 @@
 			Enable = true
 
 		[items.activations.sun_overdrive]
-			Enable = true
+			Enable = false
 
 		[items.activations.unstable_map]
 			Enable = true
@@ -91,7 +91,7 @@
 [loot]
 	#Chance in % that have the bosses to drop legendary items
 	#Range: 0.0 ~ 100.0
-	"Legendary %" = 33.0
+	"Legendary %" = 50.0
 
 [mobs]
 
@@ -183,7 +183,7 @@
 		#Range: > 0
 		Spacing = 32
 		#Range: > 0
-		Separation = 8
+		Separation = 16
 		#Range: > 0
 		"Seed Modifier" = 31632
 		#1 to always, 100/positiveValues chance
@@ -194,7 +194,7 @@
 		#Range: > 0
 		Spacing = 16
 		#Range: > 0
-		Separation = 4
+		Separation = 8
 		#Range: > 0
 		"Seed Modifier" = 58625
 		#1 to always, 100/positiveValues chance
@@ -205,7 +205,7 @@
 		#Range: > 0
 		Spacing = 8
 		#Range: > 0
-		Separation = 2
+		Separation = 4
 		#Range: > 0
 		"Seed Modifier" = 32127
 		#1 to always, 100/positiveValues chance
@@ -216,7 +216,7 @@
 		#Range: > 0
 		Spacing = 32
 		#Range: > 0
-		Separation = 8
+		Separation = 16
 		#Range: > 0
 		"Seed Modifier" = 14341
 		#1 to always, 100/positiveValues chance
@@ -227,7 +227,7 @@
 		#Range: > 0
 		Spacing = 32
 		#Range: > 0
-		Separation = 8
+		Separation = 16
 		#Range: > 0
 		"Seed Modifier" = 14357617
 		#1 to always, 100/positiveValues chance
@@ -238,7 +238,7 @@
 		#Range: > 0
 		Spacing = 80
 		#Range: > 0
-		Separation = 20
+		Separation = 40
 		#Range: > 0
 		"Seed Modifier" = 9326560
 		#1 to always, 100/positiveValues chance
@@ -251,7 +251,7 @@
 		#Range: > 0
 		Spacing = 80
 		#Range: > 0
-		Separation = 20
+		Separation = 40
 		#Range: > 0
 		"Seed Modifier" = 9326560
 		#1 to always, 100/positiveValues chance
@@ -264,7 +264,7 @@
 		#Range: > 0
 		Spacing = 80
 		#Range: > 0
-		Separation = 20
+		Separation = 40
 		#Range: > 0
 		"Seed Modifier" = 214556
 		#1 to always, 100/positiveValues chance
@@ -277,7 +277,7 @@
 		#Range: > 0
 		Spacing = 80
 		#Range: > 0
-		Separation = 20
+		Separation = 40
 		#Range: > 0
 		"Seed Modifier" = 5284629
 		#1 to always, 100/positiveValues chance
@@ -290,7 +290,7 @@
 		#Range: > 0
 		Spacing = 80
 		#Range: > 0
-		Separation = 20
+		Separation = 40
 		#Range: > 0
 		"Seed Modifier" = 3241280
 		#1 to always, 100/positiveValues chance
@@ -303,7 +303,7 @@
 		#Range: > 0
 		Spacing = 80
 		#Range: > 0
-		Separation = 20
+		Separation = 40
 		#Range: > 0
 		"Seed Modifier" = 3252381
 		#1 to always, 100/positiveValues chance
@@ -314,7 +314,7 @@
 		#Range: > 0
 		Spacing = 80
 		#Range: > 0
-		Separation = 20
+		Separation = 40
 		#Range: > 0
 		"Seed Modifier" = 621556
 		#1 to always, 100/positiveValues chance

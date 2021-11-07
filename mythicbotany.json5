@@ -95,7 +95,7 @@
     // hearts   - Players need absorption hearts to hold mjoellnir.
     //            If they run out of golden hearts but still have the effect, mjoellnir is dropped.
     // Allowed values: nothing, effect, hearts
-    "requirement": "effect",
+    "requirement": "hearts",
     
     // What is required for a player that holds the ring of thor to hold mjoellnir.
     // If a player holds the ring of thor, this OR `mjoellnir.requirement` must be met.

@@ -2,7 +2,7 @@
 #Common config for Farming for Blockheads
 [common]
 	#List of names the merchant can have.
-	merchantNames = ["Swap-O-Matic", "Emerald Muncher", "Weathered Salesperson"]
+	merchantNames = ["Swap-O-Matic", "Emerald Muncher", "Weathered Salesperson", "Plumetted Salesguy", "Overworked Employee", "Summoned Merchant", "Golden Sands Approved Trader"]
 	#The range within animals can be fed by the feeding trough.
 	#Range: 1 ~ 16
 	feedingTroughRange = 8

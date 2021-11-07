@@ -4,13 +4,13 @@
 	#Log Mekanism packet names. Debug setting.
 	logPackets = false
 	#Disable to make the anchor upgrade not do anything.
-	allowChunkloading = true
+	allowChunkloading = false
 	#How many ticks must pass until a block's active state is synced with the client, if it has been rapidly changing.
-	blockDeactivationDelay = 60
+	blockDeactivationDelay = 20
 	#Any mod ids added to this list will not be able to have any of their blocks, picked up by the cardboard box. For example: ["mekanism"]
 	cardboardModBlacklist = []
 	#Allow right clicking on Cables/Pipes/Tubes with alloys to upgrade the tier.
-	transmitterAlloyUpgrade = true
+	transmitterAlloyUpgrade = false
 	#Base factor for working out machine performance with upgrades - UpgradeModifier * (UpgradesInstalled/UpgradesPossible).
 	#Range: > 1
 	maxUpgradeMultiplier = 10
@@ -25,7 +25,7 @@
 	superheatingHeatTransfer = 1.6E7
 	#Displayed temperature unit in Mekanism GUIs.
 	#Allowed Values: K, C, R, F, STP
-	temperatureUnit = "K"
+	temperatureUnit = "C"
 	#Peak processing rate for the Solar Neutron Activator. Note: It can go higher than this value in some extreme environments.
 	maxSolarNeutronActivatorRate = 64
 
@@ -40,15 +40,15 @@
 	#Prefilled Tanks
 	[general.prefilled]
 		#Add filled creative fluid tanks to creative/JEI.
-		fluidTanks = true
+		fluidTanks = false
 		#Add filled creative gas tanks to creative/JEI.
-		gasTanks = true
+		gasTanks = false
 		#Add filled creative infusion tanks to creative/JEI.
-		infusionTanks = true
+		infusionTanks = false
 		#Add filled creative pigment tanks to creative/JEI.
-		pigmentTanks = true
+		pigmentTanks = false
 		#Add filled creative slurry tanks to creative/JEI.
-		slurryTanks = true
+		slurryTanks = false
 
 	#Energy Conversion Rate Settings
 	[general.energy_conversion]
@@ -57,7 +57,7 @@
 		#Conversion multiplier from EU to Joules (EU * JoulePerEU = Joules)
 		JoulePerEU = "10"
 		#Conversion multiplier from Joules to EU (Joules * EUPerJoule = EU)
-		EUPerJoule = "0.1000"
+		EUPerJoule = "0.1"
 		#Disables Forge Energy (FE,RF,IF,uF,CF) power integration. Requires world restart (server-side option in SMP).
 		blacklistForge = false
 		#Conversion multiplier from Forge Energy to Joules (FE * JoulePerForgeEnergy = Joules)
@@ -82,7 +82,7 @@
 		radiationEnabled = true
 		#The radius of chunks checked when running radiation calculations. The algorithm is efficient, but don't abuse it by making this crazy high.
 		#Range: 1 ~ 100
-		chunkCheckRadius = 5
+		chunkCheckRadius = 8
 		#Radiation sources are multiplied by this constant roughly once per second to represent their emission decay. At the default rate, it takes roughly 10 days to remove a 1,000 Sv/h (crazy high) source.
 		sourceDecayRate = 0.9995
 		#Radiated objects and entities are multiplied by this constant roughly once per second to represent their dosage decay.
@@ -125,7 +125,7 @@
 	#Pump Settings
 	[general.pump]
 		#Maximum block distance to pull fluid from for the Electric Pump.
-		maxPumpRange = 80
+		maxPumpRange = 200
 		#If enabled makes Water and Heavy Water blocks be removed from the world on pump.
 		pumpWaterSources = false
 		#Fluidic Plenisher stops after this many blocks.
@@ -147,7 +147,7 @@
 		#Enable the security system for players to prevent others from accessing their machines. Does NOT affect Frequencies.
 		allowProtection = true
 		#Ops can bypass the block security restrictions if enabled.
-		opsBypassRestrictions = false
+		opsBypassRestrictions = true
 
 	#Nutritional PasteSettings
 	[general.nutritional_paste]

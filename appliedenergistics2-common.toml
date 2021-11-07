@@ -66,8 +66,8 @@
 	craftingCalculationTimePerTick = 5
 
 [spatialio]
-	spatialPowerMultiplier = 1250.0
-	spatialPowerExponent = 1.35
+	spatialPowerMultiplier = 1000.0
+	spatialPowerExponent = 1.25
 	#BE CAREFUL, CAN CORRUPT YOUR WORLD! Will use #spatial/whitelist as whitelist.
 	spatialBlockTags = false
 
@@ -153,5 +153,5 @@
 	improvedFluidTag = ""
 	#The speed multiplier to use when the crystals are submerged in the improved fluid.
 	#Range: 1.0 ~ 10.0
-	improvedFluidMultiplier = 2.0
+	improvedFluidMultiplier = 4.0
 

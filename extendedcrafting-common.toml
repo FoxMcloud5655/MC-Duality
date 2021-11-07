@@ -7,7 +7,7 @@
 #Settings for the Crafting Core.
 ["Combination Crafting"]
 	#Should the Crafting Core be enabled?
-	enabled = true
+	enabled = false
 	#How much FE the Crafting Core should hold.
 	#Range: > 0
 	powerCapacity = 5000000
@@ -64,7 +64,7 @@
 	defaultMaterialsRequired = 10000
 	#The default amount of FE required to create a Singularity.
 	#Range: > 0
-	defaultPowerRequired = 5000000
+	defaultPowerRequired = 50000000
 	#Should default recipes be generated for Singularities?
 	defaultRecipes = true
 	#The item to use as the Catalyst in default Singularity recipes.

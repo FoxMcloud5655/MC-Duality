@@ -21,7 +21,7 @@
 #These options affect only the client that loads the mod.
 [clientOnly]
 	#Enables (most) Client-Side Easter Eggs for iChun's Mods
-	easterEgg = true
+	easterEgg = false
 	#Override the Options button so pressing Shift when clicking it shows the Mods list.
 	buttonOptionsShiftOpensMods = true
 	#The Minecraft Toast Renderer has a bug where toasts with different heights might overlap. This override fixes it if the renderer is still the default renderer.
@@ -34,5 +34,5 @@
 	#Range: 0 ~ 2
 	aggressiveHeadTracking = 1
 	#Enable the easter egg where the horse/llama's "head" is its behind. This is an easter egg on how Hats used to put hats on Horses.
-	horseEasterEgg = true
+	horseEasterEgg = false
 

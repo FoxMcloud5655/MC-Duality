@@ -16,7 +16,7 @@
 	maxVisibleDistance = 128
 	#
 	# Should dynamic lighting still occur if an entity is behind a wall. Turning this on may impact performance, but allows light to be seen around corners.
-	seeThroughWalls = false
+	seeThroughWalls = true
 	#
 	# The light level emitted by the helmet.
 	#Range: 0 ~ 15
