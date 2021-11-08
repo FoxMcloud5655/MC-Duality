@@ -505,7 +505,7 @@
 	"Cave Roots" = true
 	"Chorus Vegetation" = true
 	Crevices = true
-	Deepslate = true
+	Deepslate = false
 	"Fairy Rings" = true
 	"Mega Caves" = false
 	"Monster Box" = true
