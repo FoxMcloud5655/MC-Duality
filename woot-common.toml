@@ -28,19 +28,19 @@
 		tickAcceleration = true
 		#Max health for a tier 1 mob
 		#Range: > 5
-		t1MaxHealth = 20
+		t1MaxHealth = 10
 		#Max health for a tier 2 mob
 		#Range: > 5
-		t2MaxHealth = 40
+		t2MaxHealth = 15
 		#Max health for a tier 3 mob
 		#Range: > 5
-		t3MaxHealth = 60
+		t3MaxHealth = 20
 		#Max health for a tier 4 mob
 		#Range: > 5
-		t4MaxHealth = 80
+		t4MaxHealth = 25
 		#Max health for a tier 5 mob
 		#Range: > 5
-		t5MaxHealth = 100
+		t5MaxHealth = 30
 		#Exotic drop chance
 		#Range: 0.0 ~ 100.0
 		exotic = 10.0
@@ -372,7 +372,7 @@
 		#Do not capture the following entities
 		captureEntity = ["minecraft:wither", "minecraft:ender_dragon"]
 		#Do not learn items from the following mods
-		learnMod = []
+		learnMod = ["rftoolsdim"]
 		#Do not learn the following items
 		learnItem = []
 		#Do not generate items from the following mods
