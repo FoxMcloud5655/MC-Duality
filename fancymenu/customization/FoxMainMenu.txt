@@ -145,26 +145,6 @@ customization {
 }
 
 customization {
-  orientation = mid-centered
-  restartbackgroundanimations = true
-  delayappearanceseconds = 0.6
-  buttonaction = joinserver
-  label = Join Golden Sands
-  loopbackgroundanimations = true
-  fadein = true
-  fadeinspeed = 2.0
-  x = -100
-  width = 200
-  actionid = 75c601dc-3c84-4451-964e-11a036ef5c071627923323921
-  action = addbutton
-  y = -5
-  delayappearance = true
-  value = play.goldensandsmc.com:25566
-  delayappearanceeverytime = false
-  height = 20
-}
-
-customization {
   orientation = bottom-centered
   delayappearanceseconds = 1.5
   vr:showif:modloaded = true
@@ -172,6 +152,7 @@ customization {
   scale = 30
   headrotationy = 0.0
   headrotationx = 180.0
+  vr:value:windowheight = 410,634,1080
   autorotation = false
   showname = false
   crouching = false
@@ -186,6 +167,7 @@ customization {
   bodyrotationy = 0.0
   parrot = false
   delayappearanceeverytime = false
+  vr:showif:windowheight = true
 }
 
 customization {
@@ -243,5 +225,25 @@ customization {
   alignment = left
   value = You have been warned.
   delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 0.6
+  buttonaction = joinserver
+  label = Join Golden Sands
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 2.0
+  x = -100
+  width = 200
+  actionid = 0c611311-2c2a-43a1-b6da-0d630966ef6e1636474401960
+  action = addbutton
+  y = -5
+  delayappearance = true
+  value = play.goldensandsmc.com:25566
+  delayappearanceeverytime = false
+  height = 20
 }
 

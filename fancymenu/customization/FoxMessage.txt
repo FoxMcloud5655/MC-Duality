@@ -1,0 +1,30 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.DirtMessageScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  basecolor = #00ff00
+  shadow = true
+  rotation = 0.0
+  x = -27
+  actionid = 6359e757-8250-4463-b885-f94f5e494f261636491319555
+  action = addsplash
+  y = -9
+  scale = 1.0
+  refresh = false
+  text = Joining world...
+  bouncing = true
+}
+
