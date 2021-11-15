@@ -46,7 +46,7 @@
 		vertical-alignment = "START"
 		#Defines the Scale of the Overlay
 		#Range: 0.1 ~ 10.0
-		scale = 1.5
+		scale = 1.0
 		#Reference to save which dimension is currently detailed
 		detailed-dimension = "minecraft:overworld"
 
