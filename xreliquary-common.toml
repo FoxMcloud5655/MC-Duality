@@ -40,7 +40,7 @@ mobDropsEnabled = true
 	[items.alkahestryTome]
 		#Charge limit of the tome
 		#Range: 0 ~ 9999
-		chargeLimit = 1000
+		chargeLimit = 8000
 
 	#Angelic Feather settings
 	[items.angelicFeather]
@@ -138,7 +138,7 @@ mobDropsEnabled = true
 	[items.handgun]
 		#Experience level at which handgun has the fastest reload time and shortes cooldown between shots
 		#Range: 0 ~ 100
-		maxSkillLevel = 20
+		maxSkillLevel = 30
 
 	#Harvest Rod settings
 	[items.harvestRod]

@@ -1,5 +1,17 @@
 
 [world_gen]
+	#Which dimensions ores should spawn in? [example: ["minecraft:overworld"], default empty allows all dimensions]
+	ore_whitelist = []
+	#Which dimensions ores shouldn't spawn in? [example: ["minecraft:overworld"], default empty allows all dimensions]
+	ore_blacklist = ["minecraft:the_nether", "minecraft:the_end"]
+	#Which dimensions trees should spawn in? [example: ["minecraft:the_end"], default empty allows all dimensions]
+	tree_whitelist = []
+	#Which dimensions trees shouldn't spawn in? [example: ["minecraft:the_end"], empty allows all dimensions]
+	tree_blacklist = ["minecraft:the_end"]
+	#Which dimensions nipa structures should spawn in? [example: ["minecraft:the_end"], default empty allows all dimensions]
+	nipa_whitelist = []
+	#Which dimensions nipa structures  shouldn't spawn in? [example: ["minecraft:the_end"], empty allows all dimensions]
+	nipa_blacklist = ["minecraft:the_end"]
 
 	[world_gen.arcane_crystal]
 		#Generate Arcane Crystal Ore? [default: true]
@@ -75,10 +87,10 @@
 		generate = true
 		#Maximum size of Stella Arcanum veins [default: 3]
 		#Range: 0 ~ 100
-		max_vein_size = 3
+		max_vein_size = 2
 		#Maximum Stella Arcanum veins per chunk [default: 2]
 		#Range: 1 ~ 100
-		count = 2
+		count = 1
 		#Maximum height for Stella Arcanum to generate [default: 50]
 		#Range: 1 ~ 256
 		max_height = 50
@@ -153,7 +165,7 @@
 	[items.eternal_stella]
 		#How many times the Eternal Stella can be used before breaking [default: 3]
 		#Range: 1 ~ 100
-		uses = 3
+		uses = 2
 
 [blocks]
 
@@ -176,8 +188,8 @@
 [enchantments]
 
 	[enchantments.indestructible]
-		#Should the item be fully repaired after applying the Indestructible enchantment [default: true]
-		fully_repair_item = true
+		#Should the item be repaired after applying the Indestructible enchantment [default: true]
+		repair_item = true
 
 [aureal]
 	#Chance that an entity spawns as Aureal Entity [default: 0.25]
