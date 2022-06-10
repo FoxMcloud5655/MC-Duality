@@ -97,11 +97,11 @@
 
 	[world_gen.cherrywood_tree]
 		#Generate Cherrywood Trees? [default: true]
-		generate = true
+		generate = false
 
 	[world_gen.mysterywood_tree]
 		#Generate Mysterywood Trees? [default: true]
-		generate = true
+		generate = false
 
 	[world_gen.edelwood_tree]
 		#Generate Edelwood Trees? [default: true]

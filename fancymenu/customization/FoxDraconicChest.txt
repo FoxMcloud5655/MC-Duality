@@ -1,0 +1,45 @@
+type = menu
+
+customization-meta {
+  identifier = com.brandon3055.draconicevolution.client.gui.GuiDraconiumChest
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=570542%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=558542%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=546542%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=534542%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=417359%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=405359%
+  action = hidebutton
+}
+

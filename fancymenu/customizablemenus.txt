@@ -1,8 +1,5 @@
 type = customizablemenus
 
-net.minecraft.client.gui.screen.MainMenuScreen {
-}
-
 net.minecraft.client.gui.screen.AlertScreen {
 }
 
@@ -10,5 +7,20 @@ net.minecraft.client.gui.screen.IngameMenuScreen {
 }
 
 net.minecraft.client.gui.screen.ConnectingScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
+}
+
+mcjty.rftoolsdim.modules.workbench.client.GuiWorkbench {
+}
+
+com.ma.gui.item.GuiPractitionersPouch {
+}
+
+com.brandon3055.draconicevolution.client.gui.GuiDraconiumChest {
+}
+
+slimeknights.tconstruct.tables.client.inventory.TinkerChestScreen {
 }
 

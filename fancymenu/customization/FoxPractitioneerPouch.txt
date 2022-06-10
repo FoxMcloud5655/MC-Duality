@@ -1,0 +1,50 @@
+type = menu
+
+customization-meta {
+  identifier = com.ma.gui.item.GuiPractitionersPouch
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=414467%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=402467%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=454423%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=570518%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=558518%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=546518%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=534518%
+  action = hidebutton
+}
+
